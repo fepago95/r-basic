@@ -91,4 +91,4 @@ print("Porcentaje Minimo Vx:",Min_Vx)
 xi = np.array([20, 40, 60, 80, 100, 120, 140, 160, 180])
 fi = np.array([0.137, 0.274, 0.387, 0.503, 0.640, 0.752, 0.888, 1.067, 1.446])
 delta_Cy=lagrange_polinomio(xi,fi)
-print("Delta_Cy",delta_Cy)
+print("Delta_Cy",delta_Cy)#
