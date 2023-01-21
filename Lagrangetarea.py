@@ -36,8 +36,8 @@ def lagrange_polinomio(xi,fi):# Conocer cuantos elementos tiene xi
 # print('Evaluación del polinomio')
 # print(px(5.5)
 
-# Función 
+# Función teta:
 xi = np.array([20, 40, 60, 80, 100, 120, 140, 160, 180])
 fi = np.array([170, 160, 150, 140, 130, 120, 110, 100, 90])
 teta_s=lagrange_polinomio(xi,fi)
-print(teta_s)
+print("teta_s",teta_s)
